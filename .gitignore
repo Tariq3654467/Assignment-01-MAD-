@@ -1,1 +1,30 @@
-👉 Do you want me to also give you a .gitignore file (to avoid uploading things like node_modules, .expo, etc.) so your repo stays clean?
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Expo
+.expo/
+.expo-shared/
+
+# Build outputs
+android/
+ios/
+web-build/
+dist/
+build/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Environment files
+.env
+*.env.local
