@@ -55,10 +55,7 @@ For testing purposes, you can use these credentials:
 
 4. **Start the development server**
    ```bash
-   npm start
-   # or
-   expo start
-   ```
+   npx expo start
 
 5. **Run on device/simulator**
    - Press `i` for iOS Simulator
@@ -157,7 +154,7 @@ The app includes the following dummy data as specified in the requirements:
 
 ```bash
 # Start development server
-npm start
+npx expo start
 
 # Run on iOS
 npm run ios
